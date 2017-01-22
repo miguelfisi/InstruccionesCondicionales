@@ -15,10 +15,9 @@ public class EjemploSwitch {
 
     public static void main(String[] args) {
         int x;
+        Scanner scanner = new Scanner(System.in);
         do {
             //ingreso de entero como cadena
-
-            Scanner scanner = new Scanner(System.in);
             System.out.println("Ingrese Entero:");
             String num = scanner.nextLine();
             //scanner.close();
